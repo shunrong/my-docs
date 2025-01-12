@@ -18,11 +18,14 @@ jobs:
         with:
           node-version: '14'  # 根据需要选择 Node.js 版本
 
+      - name: Install pnpm
+        run: npm install -g pnpm  # 安装 pnpm
+
       - name: Install dependencies
-        run: pnpm install  # 修改为 pnpm install
+        run: pnpm install  # 使用 pnpm 安装依赖
 
       - name: Build the project
-        run: pnpm run build  # 修改为 pnpm build
+        run: pnpm run build  # 使用 pnpm 构建项目
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
