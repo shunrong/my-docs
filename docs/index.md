@@ -1,15 +1,15 @@
 ---
-title: A static site based on dumi
+title: A 是大钉钉static site based on dumi
 hero:
   title: Site
-  description: A static site based on dumi
+  description: A sta大钉钉tic site based on dumi
   actions:
-    - text: Hello1
+    - text: Hello1山上
       link: /
     - text: World3
       link: /
 features:
-  - title: Hello
+  - title: Hello的
     emoji: 💎
     description: Put hello description here
   - title: World
