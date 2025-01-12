@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'  # 根据需要选择 Node.js 版本
+          node-version: '20'  # 根据需要选择 Node.js 版本
 
       - name: Install pnpm
         run: npm install -g pnpm  # 安装 pnpm
